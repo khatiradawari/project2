@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+body{margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    height: 100%;
+    background: rgba(113, 100, 100, 0.788) url(picture/food4.jpg) center fixed;
+   
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    }
+
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header h1{
+        color: white;
+        font-size: 50px;
+    }
+    header span{
+        color: rgb(255, 0, 0);
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 20px;
+        list-style: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    .res{
+        background-color: orange;
+        
+    }
+    nav ul li a:hover{
+        font-size: 25px;
+        background-color: yellow;
+        color: red;
+        transition: 1.5;
+        
+    }
+   
+    main{
+        position: absolute;
+        top: 37%;
+        left: 35%;
+        color: white;
+    }
+    main h2{
+        margin-left: 20px;
+
+        text-align: center;
+    }
+    main h1{
+        text-align: center;
+    }
+    main p{
+        text-align: center;
+        margin: 1%;
+
+    }
+    .search{
+        position: absolute;
+        top: 65%;
+        left: 55%;
+    }
+    input{
+        width: 350px;
+        padding: 15px;
+        border-radius: 50px;
+    }
+    button{
+        position: absolute;
+        top: 80%;
+        left: 68%;
+        padding: 20px;
+        font-size: 13px;
+        font-weight: 900;
+        background-color: orange;
+        border-radius: 25px;
+    }
+    button:hover{
+        background-color: yellow;
+        color: red;
+
+    }
+    

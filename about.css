@@ -1,0 +1,94 @@
+
+    h1{
+        color: brown;
+        text-align: center;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header h1{
+        color: white;
+        font-size: 40px;
+    }
+    header span{
+        color: red;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 20px;
+        list-style: none;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .res{
+        background-color: orange;
+        
+    }
+    nav ul li a:hover{
+        font-size: 20px;
+        background-color: yellow;
+        color: red;
+        transition: 1.5;
+        
+    }
+    body{margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        height: 100%;
+        background: rgba(113, 100, 100, 0.788) url(picture/food3.jpg) center fixed;
+       
+        background-size: cover;
+        background-blend-mode: darken;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        }
+   
+    .about{
+        position: absolute;
+        top: 49%;
+        left: 45%;
+        transform: translate(-45%,-45%);
+        color: white;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.5);
+        
+    }
+    .about h1{
+        color: white;
+        text-transform: uppercase;
+        font-size: 45px;
+    }
+    .about p{
+        padding: 0px 50px;
+        font-size: 18px;
+    }
+    button{
+       
+        
+        border: 1px solid  white;
+        color: hwb(0 9% 90%);
+        font-size: 16px;
+        padding: 8px 20px;
+        border-radius: 7px;
+        transition: 0.3 all ease ;
+
+    }
+    button:hover{
+        background: black;
+        color: red;
+
+    }
+
+
+
+
+
+
